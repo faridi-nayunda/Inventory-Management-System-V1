@@ -64,6 +64,7 @@ python manage.py createsuperuser
 python manage.py runserver
 
 # 7. Open browser at http://127.0.0.1:8000
+
 🚀 Usage
 Log in using your admin credentials
 Add or manage products and categories
@@ -84,10 +85,6 @@ This project is licensed under the MIT License.
 Faridi Nayunda
 GitHub: @faridi-nayunda
 Project: https://github.com/faridi-nayunda/Inventory-Management-System-V1
-plain
-Copy
-
----
 
 **To use this:**
 

@@ -86,13 +86,4 @@ Faridi Nayunda
 GitHub: @faridi-nayunda
 Project: https://github.com/faridi-nayunda/Inventory-Management-System-V1
 
-**To use this:**
-
-1. Create a file named `README.md` in your project root folder
-2. Copy the code block above (everything between the triple backticks)
-3. Paste it into the file
-4. Save and commit to GitHub
-
-The file includes badges, tables, emojis, and proper Markdown formatting that will display nicely on your GitHub repository.
-
 

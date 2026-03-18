@@ -43,35 +43,35 @@ A modern, full-stack inventory management solution built with Django and Tailwin
 ### Setup Steps
 
 
-# 1. Clone the repository
+## 1. Clone the repository
 git clone https://github.com/faridi-nayunda/Inventory-Management-System-V1.git
 cd Inventory-Management-System-V1
 
-# 2. Install Python dependencies
+## 2. Install Python dependencies
 pipenv install
 pipenv shell
 
-# 3. Install TailwindCSS dependencies
+## 3. Install TailwindCSS dependencies
 npm install
 
-# 4. Apply database migrations
+## 4. Apply database migrations
 python manage.py migrate
 
-# 5. Create admin user
+## 5. Create admin user
 python manage.py createsuperuser
 
-# 6. Run development server
+## 6. Run development server
 python manage.py runserver
 
-# 7. Open browser at http://127.0.0.1:8000
+## 7. Open browser at http://127.0.0.1:8000
 
 ---
 
 ## 🚀 Usage
-Log in using your admin credentials
-Add or manage products and categories
-Monitor stock levels and generate reports
-Enjoy a modern, responsive interface
+- Log in using your admin credentials
+- Add or manage products and categories
+- Monitor stock levels and generate reports
+- Enjoy a modern, responsive interface
 
 ---
 
@@ -85,10 +85,14 @@ Make your changes
 Commit (git commit -m "Add feature")
 Push (git push origin feature-name)
 Open a Pull Request
-  
+
+---
+
 ## 📄 License
 - This project is licensed under the MIT License.
+
+---
+
 ## 👤 Author
 Faridi Nayunda
-GitHub: @faridi-nayunda
-Project: https://github.com/faridi-nayunda/Inventory-Management-System-V1
+

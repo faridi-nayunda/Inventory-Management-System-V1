@@ -1,0 +1,21 @@
+{% extends "inventories/layout.html" %}
+
+{% block content %}
+  <div class="mx-auto p-20 max-w-4xl border mt-10 my-4 text-center rounded-lg bg-white shadow-lg">
+
+    <div class="mb-6">
+      <h1 class="text-4xl font-medium text-gray-800">Welcome to the Inventory Management System</h1>
+      <p class="leading-relaxed my-4 text-gray-800  text-lg font-medium">Manage Your Products Efficiently and Effectively</p>
+    </div>
+
+    <hr class="bg-gray-300 h-1 w-full mb-6">
+
+    <div class="mt-8">
+      <p class="leading-relaxed my-5 text-gray-800 text-lg font-medium">Use the navigation bar to add, view, update, or delete products.</p>
+      <a href="{% url 'product_list' %}" class="bg-blue-600 hover:bg-blue-700 ease-in duration-200 text-white font-semibold py-3 px-8 rounded-md shadow-md">
+        View Products
+      </a>
+    </div>
+
+  </div>
+{% endblock %}

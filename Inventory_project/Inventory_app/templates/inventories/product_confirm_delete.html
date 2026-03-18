@@ -1,0 +1,19 @@
+{% extends "inventories/layout.html" %}
+
+{% block content %}
+<div class="mt-8">
+   <h1 class="text-3xl font-semibold text-center text-gray-800" >Are you sure you want to delete this product?</h1>
+   <p class="text-center text-gray-800 text-xl">If you proceed, this product will be permanently deleted.</p>
+</div>
+ <div>
+   <form method="POST">
+    {% csrf_token %}
+    <div class="flex justify-center space-x-3 mt-4">
+       <button type="submit" class="bg-red-600 rounded-md px-6 py-2 hover:bg-red-700 ease-in duration-200 text-white">Yes</button>
+       <a href="{% url 'product_list'%}" class="bg-green-600 rounded-md px-4 py-2 hover:bg-green-700 ease-in duration-200 text-white">Cancel</a> 
+    </div>
+
+   </form>
+ </div>
+   
+{% endblock %}
